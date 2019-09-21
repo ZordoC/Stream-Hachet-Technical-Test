@@ -553,6 +553,9 @@ def min_of_two_lists(l1,l2):
 
 
 ```python
+
+import numpy as np
+
 def total_water(original,minimum):
     """
     Calculates the difference the newly created list that holds the minimum of the right to left and left to right peaks list
@@ -563,7 +566,7 @@ def total_water(original,minimum):
     :return: list
     
     """
-    import numpy as np
+   
 
     
     sub_list =list(np.subtract(minimum,original))
